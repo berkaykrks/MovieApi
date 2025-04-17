@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0E2C2012-CDDA-46BC-B7A4-89819D71B0ED}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{40526F8D-D340-4235-A48C-21DBA06F484F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{CECE5BFA-B202-4F19-8819-01006E48E2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Application", "Core\MovieApi.Application\MovieApi.Application.csproj", "{8243DDA4-80FA-487B-A455-E5BA286C242A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{CECE5BFA-B202-4F19-8819-01006E48E2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CECE5BFA-B202-4F19-8819-01006E48E2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CECE5BFA-B202-4F19-8819-01006E48E2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8243DDA4-80FA-487B-A455-E5BA286C242A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8243DDA4-80FA-487B-A455-E5BA286C242A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8243DDA4-80FA-487B-A455-E5BA286C242A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8243DDA4-80FA-487B-A455-E5BA286C242A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,9 @@ Global
 		{B55F165A-6488-46D3-BA09-EDAAD0CDBAE0} = {0E2C2012-CDDA-46BC-B7A4-89819D71B0ED}
 		{40526F8D-D340-4235-A48C-21DBA06F484F} = {149F9F40-B634-43DE-8635-82A6989B5B37}
 		{CECE5BFA-B202-4F19-8819-01006E48E2A8} = {BEA08BD7-FBC2-4F55-9667-6A03964F5DE6}
+		{8243DDA4-80FA-487B-A455-E5BA286C242A} = {0E2C2012-CDDA-46BC-B7A4-89819D71B0ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED590EB3-54C1-4892-B237-6E9D173774C6}
 	EndGlobalSection
 EndGlobal
